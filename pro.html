@@ -1,0 +1,412 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Making a website</title>
+    <script src="https://kit.fontawesome.com/b7476b1f17.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            background-color: lightcyan;
+        }
+
+        .top {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .pera {
+            width: 40%;
+            margin-bottom: 35px;
+        }
+
+        .top-anchor {
+            text-decoration: none;
+            font-weight: 700;
+            background-color: rgb(26, 184, 184);
+            border: 10px solid rgb(26, 184, 184);
+            border-radius: 18px;
+            color: white;
+
+        }
+
+        .top-anchor {
+            text-decoration: none;
+            font-weight: 700;
+            background-color: lightcoral;
+            border: 10px solid lightcoral;
+            border-radius: 18px;
+            color: white;
+
+        }
+
+        .sec {
+            width: 80%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 280px;
+            box-shadow: 1px black;
+        }
+
+        .top-phone {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        .phone {
+            height: 400px;
+            width: 400px;
+            padding-right: 50px;
+            margin-top: 10px;
+        }
+
+        .top-h1 {
+            font-size: 40px;
+            align-items: center;
+            justify-content: center;
+            margin-left: 430px;
+        }
+
+        .top-4 {
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            margin-left: 350px;
+            width: 60%;
+        }
+
+        .money {
+            width: 70%;
+            margin-bottom: 35px;
+        }
+
+        .taka {
+            width: 70%;
+            margin-bottom: 35px;
+        }
+
+        .top-4 .top-anchor {
+            margin-left: 81px;
+        }
+
+        @media screen and (min-width:576px)(max-width:978px; ) {
+            body {
+                background-color: white;
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+        }
+
+        nav ul li {
+            list-style: none;
+
+        }
+
+        nav ul li a {
+            text-decoration: none;
+        }
+
+        .ul-1 {
+            display: flex;
+            margin-left: 30px;
+        }
+
+        .ul-1 a {
+            margin-right: 70px;
+            background-color: rgb(26, 184, 184);
+            color: white;
+            border: 10px solid rgb(26, 184, 184);
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+
+        .ul-1 {
+            margin-top: 30px;
+            text-align: center;
+            background-color: aqua;
+            border: 10px solid aqua;
+            width: 100%;
+            border-radius: 10px;
+            font-size: 20px;
+        }
+
+        .ul-1 a:hover {
+            background-color: green;
+            color: white;
+            border: 10px solid lightgreen;
+
+
+        }
+
+        .ul-1 {}
+
+        .finance {
+            justify-content: center;
+            align-items: center;
+            margin-left: 500px;
+        }
+
+        .finance-pera {
+            width: 35%;
+            margin-left: 70px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .finance h1 {
+            margin-top: 50px;
+        }
+
+        .container-simple {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            justify-content: center;
+            text-align: center;
+            margin: 0% auto;
+
+
+        }
+
+        .simple {
+            height: 200px;
+            width: 300px;
+            margin-left: 100px;
+            border: 2px solid lightslategray;
+            column-gap: 2px;
+        }
+
+        .simple-pera {
+            justify-content: center;
+            text-align: center;
+            padding-top: 10px;
+            font-size: 10px;
+
+
+        }
+
+        .simple-h4 {
+            text-align: center;
+            font-weight: 700;
+        }
+
+        .simple {
+            box-shadow: -40px 10px 20px rgba(112, 96, 96, 0.3);
+            margin-top: 30px;
+        }
+
+        .delivery {
+            display: flex;
+            width: 60%;
+            align-items: center;
+            justify-content: center;
+            margin-left: 300px;
+
+        }
+
+        .delivery-pera {
+            padding-bottom: 20px;
+        }
+
+        .client {
+            display: flex;
+            margin-left: 50px;
+        }
+
+        .client-top img {
+            height: 100px;
+            width: 100px;
+
+        }
+
+        .client-pera {
+            width: 80%;
+            margin-left: 40px;
+        }
+
+        .paragraph {
+            text-align: center;
+            justify-content: center;
+            font-size: 40px;
+            font-weight: 900;
+        }
+
+        .client-top {
+            text-align: center;
+            justify-content: center;
+        }
+
+        .client-top h4 {
+            font-size: 40px;
+            font-weight: 700;
+            color: rgb(53, 150, 150);
+            margin-top: 0%;
+        }
+
+        .name {
+            display: flex;
+            font-size: 15px;
+            margin-left: 8px;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .ul-1 li {
+            align-items: center;
+            margin-left: 50px;
+        }
+
+        footer {
+            text-align: center;
+            background-color: lightcoral;
+            color: white;
+            margin-top: 10px;
+            font-size: 20px;
+            font-weight: 700;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul class="ul-1">
+            <li><a href="https://www.facebook.com/photo/?fbid=1794428664234019&set=pcb.1794428837567335">Home</a></li>
+            <li><a href="https://www.facebook.com/anisur4201">About</a></li>
+            <li><a href="https://www.instagram.com/anisur379/">Contact</a></li>
+            <li><a href="ansiurrahmantalap1@gmail.com">For more</a></li>
+            <li><a href="https://www.google.com">Sign
+                    up now</a></li>
+            <li><a class="top-anchor2" href="">Sign out</a></li>
+        </ul>
+    </nav>
+    <section class="sec">
+        <div class="top">
+            <div>
+                <h1>Managing money <br> -Made simple</h1>
+                <p class="pera">Delivery is the process of transporting Goods from a source location to a prefined
+                    Destination.Cargo(physical
+                    goods) is it sell are generally know.
+                </p>
+                <a class="top-anchor" href="">Sign up Now</a>
+            </div>
+            <img src="bike.png" alt="">
+        </div>
+    </section>
+    <section>
+        <h1 class="top-h1">Discover what so amazing Mint's</h1>
+        <div class="top-phone">
+            <img class="phone" src="phone.jpg" alt="">
+            <img class="phone" src="phone.jpg" alt="">
+        </div>
+        <div class="top-4">
+            <div>
+                <h1>ALL YOUR ACCOUNTS <br> ALL IN ONE PLACE</h1>
+
+                <p class="money">See it all it a glance when you link your cash accounts,credit cards instuments and
+                    bills.</p>
+                <a class="top-anchor" href="">Sign up Now</a>
+            </div>
+            <div>
+                <h1>KEEP YOUR CASH FLOW <br> CRYSTAL CLEAR</h1>
+
+                <p class="taka">Effortessly track your cash flow and gain insights that will help you inside
+                    opportunities.</p>
+                <a class="top-anchor" href="">Sign up Now</a>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="finance">
+            <h1>YOUR FINANCES SAFE AND SECURE</h1>
+            <P class="finance-pera">With 256 Bit encryption and multi-factor authentication, we protect your info if
+                it's
+                your own </P>
+        </div>
+    </section>
+    <section>
+        <div class="container-simple">
+            <div class="simple">
+
+                <h4 class="simple-h4">EASE OF USE</h4>
+                <p class="simple-pera">OUR GOAT IS TO MAKE THE EXPERIENCE OF GETTING A MEDICAL MARJUANA CARD AS EASY AS
+                    POSSIBLE </p>
+            </div>
+            <div class="simple">
+                <h4 class="simple-h4">A SIMPLE SOLUTION</h4>
+                <p class="simple-pera">WE HELP PATIENTS FIND CANNABIS PHYSICIANS THAT MAY RECOMMEND THEM FOR MMJ WITHING
+                    THEIR STATE.</p>
+            </div>
+            <div class="simple">
+                <h4 class="simple-h4">QUICK ACCESS</h4>
+                <p class="simple-pera">ALL OF THE DOCTORS IN OUR NETWORK ARE UCENSED IN THE STATE(S) THEY OPERATE IN AND
+                    UNDERSTAND THAT
+                    EASE AND. </p>
+            </div>
+            <div class="simple">
+                <h4 class="simple-h4">ONLINE SOLUTIONS</h4>
+                <p class="simple-pera">IN MOST STATES YOU CAN CONSULT WITH A PHYSICIAN FROM THE COMFORT OF YOUR OWN
+                    COUCH!</p>
+            </div>
+            <div class="simple">
+                <h4 class="simple-h4">GET APPROVED</h4>
+                <P class="simple-pera">RECIEVE A MEDICAL MARJUANA RECOMMENDATION OR YOUR MONEY BACK.</P>
+            </div>
+            <div class="simple">
+                <h4 class="simple-h4">FIND A DISPENSARY</h4>
+                <p class="simple-pera">IF APPROVED,WE WILL SEND YOUR OFF TO THE BEST DISPENSARIES IN YOUR AREA SO YOU
+                    CAN START PURCHASING
+                    CANNABIS.</p>
+            </div>
+
+        </div>
+    </section>
+    <section>
+        <div class="delivery">
+            <div><img src="fast.png" alt=""></div>
+            <div>
+                <h1>FAST DELIVERY SYSTEM</h1>
+                <p class="delivery-pera">JOIN THE OTHER MINTERS WHO'VE ALREADY RACKED UP A COMBINED $2M+ IN SAVINGS.2
+                </p>
+                <a class="top-anchor" href="">Sign up Now</a>
+            </div>
+        </div>
+    </section>
+    <section>
+        <p class="paragraph">WHAT OUR CLIENT SAY</p>
+        <div class="client">
+            <div class="client-top">
+                <h4>"</h4>
+                <p class="client-pera">WAS FASTER & EASIER THAN I COULD HAVE POSSIBLY IMAGINED NO ISSSUES$.MAD MY
+                    CARD
+                    WITHIN 24 HOURS OF
+                    MAKING CALL TO VERHEAL.</p>
+                <img src="client1 (1).jpg" alt="">
+                <div class="name"><span>JANICE R.SOLIZ</span></div>
+            </div>
+            <div class="client-top">
+                <h4>"</h4>
+                <p class="client-pera">VERHEAL IS VERY EASY TO WORK WITH AND EVERYTHING GOES EXACTLY AS THEY OUTLEND IN
+                    THE INSTURCTIONS.ID
+                    EASCH TIME THE RENEWAL ORGANIZATIONS EVER! </p>
+                <img src="client2.jpg" alt="">
+                <div class="name"><span>FRANK T.VANWORMER</span></div>
+            </div>
+            <div class="client-top">
+                <h4>"</h4>
+                <p class="client-pera">MADE IT EASY TO FIND AN APPOINTMENT TO GET THE APPROVAL AND THE ABULTY TO DO A
+                    VIDEO APPOINMENT WAS
+                    VERYTY HOME AND DO A VIDEO APPOINTMENT</p>
+                <img src="client3.jpg" alt="">
+                <div class="name"><span>JUDY W.HEY</span></div>
+            </div>
+        </div>
+        <footer>This web site made by: <span>Anisur Rahman</span></footer>
+    </section>
+</body>
+
+</html>
